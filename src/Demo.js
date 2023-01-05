@@ -13,7 +13,7 @@ function Demo(){
         axios.get("https://demo-spring.azurewebsites.net/").then(response => console.log(response));
     }
     
-    function getSuccessApi(){
+    function getFailedApi(){
         axios.get("https://demo-spring.azurewebsites.net/asd").then(response => console.log(response));
     }
 }
