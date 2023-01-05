@@ -8,7 +8,7 @@ function Demo(){
     );
 
     function getApi(){
-        axios.get("https://demo-spring.azurewebsites.net/asdasda").then(response => console.log(response));
+        axios.get("https://demo-spring.azurewebsites.net/home").then(response => console.log(response));
       }
 }
 
